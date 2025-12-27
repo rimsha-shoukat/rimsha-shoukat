@@ -14,11 +14,11 @@
 **Design & Productivity:**  
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white)  ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white)  
 
+## 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=rimsha-shoukat&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)  ![](https://nirzak-streak-stats.vercel.app/?user=rimsha-shoukat&theme=github_dark&hide_border=false)  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rimsha-shoukat&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)  
+
 ## 🏆 GitHub Achievements
 <p align="left">
   <em>Active contributor and lifelong learner in the JS ecosystem.</em><br>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rimsha-shoukat&theme=github_dark" alt="GitHub Achievements"/>
 </p>
-
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=rimsha-shoukat&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)  ![](https://nirzak-streak-stats.vercel.app/?user=rimsha-shoukat&theme=github_dark&hide_border=false)  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rimsha-shoukat&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)  
