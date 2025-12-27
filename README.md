@@ -1,4 +1,4 @@
-💻 I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG**. I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source projects** and practice **LeetCode** to strengthen problem-solving and data structure skills.  
+#### 💻 I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG**. I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source projects** and practice **LeetCode** to strengthen problem-solving and data structure skills.  
 > Turning designs into clean, functional web apps while contributing to the developer community.
 
 ## 🌐 Socials
