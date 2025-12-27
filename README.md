@@ -1,5 +1,5 @@
-#### 💻 I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG**. I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source projects** and practice **LeetCode** to strengthen problem-solving and data structure skills.  
-> Turning designs into clean, functional web apps while contributing to the developer community.
+### 💻 I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG**. I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source projects** and practice **LeetCode** to strengthen problem-solving and data structure skills.  
+### > Turning designs into clean, functional web apps while contributing to the developer community.
 
 ## 🌐 Socials
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rimsha-shoukat)  [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rimsha.devs@gmail.com)  [![Portfolio](https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=about-dot-me&logoColor=white)](https://rimsha-shoukat.github.io/portfolio/) [![Resume](https://img.shields.io/badge/Resume-%23FF6F61.svg?logo=file&logoColor=white)](https://drive.google.com/file/d/1p1g2cOeon3lP6d9Iz_BTnONO6UbKltrw/view)
