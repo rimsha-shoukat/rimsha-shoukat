@@ -1,6 +1,10 @@
-
+import React from 'react';
+import { ThemeProvider } from './components/themeProvider';
 export default function Home() {
   return (
-    <>rimsha-shoukat</>
+    <>
+    <h1>rimsha-shoukat</h1>
+    <ThemeProvider />
+    </>
   );
 }
