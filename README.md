@@ -1,6 +1,6 @@
 # ✨ Full-Stack JavaScript Developer
 
-I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG.**  
+Hi, I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG.**  
 I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends.** 
 I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.  
 > Turning designs into clean, functional web apps while contributing to the developer community.
@@ -17,9 +17,6 @@ I actively contribute to **open-source** projects and practice **LeetCode** to s
 
 ### ***Design & Productivity:***
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)  ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white)  
-
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=rimsha-shoukat&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true)  ![](https://nirzak-streak-stats.vercel.app/?user=rimsha-shoukat&theme=github_dark&hide_border=false)  ![](https://github-readme-stats.vercel.app/api/top-langs/?username=rimsha-shoukat&theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)  
 
 ## 🏆 GitHub Achievements
 <p align="left">
