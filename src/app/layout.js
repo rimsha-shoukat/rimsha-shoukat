@@ -6,6 +6,12 @@ export const metadata = {
   description: "Personal portfolio website of Rimsha Shoukat",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  userScalable: false,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>

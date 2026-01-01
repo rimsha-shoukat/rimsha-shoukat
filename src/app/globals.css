@@ -37,7 +37,7 @@ body {
 
 /* switch theme animations */
 .sun {
-    animation: switchThemeSun 0.8s linear;
+    animation: switchThemeSun 0.5s linear;
 }
 @keyframes switchThemeSun {
     from {
@@ -51,7 +51,7 @@ body {
 }
 
 .moon {
-    animation: switchThemeMoon 0.8s linear;
+    animation: switchThemeMoon 0.5s linear;
 }
 @keyframes switchThemeMoon {
     from {
