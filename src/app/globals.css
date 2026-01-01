@@ -1,7 +1,18 @@
 @import "tailwindcss";
+/* Active dark class in tailwindcss */
+@custom-variant dark (&:where(.dark, .dark *));
 
-/* --dark-bg: #171a21;
-    --light-bg: #ececec; */
+/* light theme */
+@theme {
+    --bg-color: #ececec;
+    --text-color: black;
+}
+
+/* dark theme */
+.dark {
+    --bg-color: #171a21;
+    --text-color: white;
+}
 
 * {
     margin: 0;
@@ -10,7 +21,38 @@
 }
 
 body {
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif, monospace;
     width: 100vw;
     height: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.sun {
+    animation: switchThemeSun 0.8s linear;
+}
+
+@keyframes switchThemeSun {
+    from {
+        translate: 11px 0;
+        opacity: 0;
+    }
+    to {
+        translate: 0 0;
+        opacity: 1;
+    }
+}
+
+.moon {
+    animation: switchThemeMoon 0.8s linear;
+}
+@keyframes switchThemeMoon {
+    from {
+        translate: -11px 0;
+        opacity: 0;
+    }
+    to {
+        translate: 0 0;
+        opacity: 1;
+    }
 }
