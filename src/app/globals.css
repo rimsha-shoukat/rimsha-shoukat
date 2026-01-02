@@ -82,14 +82,17 @@ body {
 .link1, .link2, .link3, .link4 {
     animation: linksAnimation 2s linear;
 }
+.link1 {
+    animation-delay: 0.5s;
+}
 .link2 {
-    animation-delay: 0.2s;
+    animation-delay: 1s;
 }
 .link3 {
-    animation-delay: 0.4s;
+    animation-delay: 1.5s;
 }
 .link4 {
-    animation-delay: 0.6s;
+    animation-delay: 2s;
 }
 @keyframes linksAnimation {
     from {
@@ -108,19 +111,19 @@ body {
     will-change: translate, opacity;
 }
 .navBtn1 {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 }
 .navBtn2 {
-    animation-delay: 2.5s;
+    animation-delay: 2s;
 }
 .navBtn3 {
-    animation-delay: 3s;
+    animation-delay: 2.5s;
 }
 .navBtn4 {
-    animation-delay: 3.5s;
+    animation-delay: 3s;
 }
 .navBtn5 {
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 }
 @keyframes navButtonsAnimation {
     from {
@@ -130,5 +133,23 @@ body {
     to {
         translate: 0 0;
         opacity: 1;
+    }
+}
+
+/* tech stack buttons animation */
+.stackBtn {
+    animation: stackButtonsAnimation 2s ease-out both;
+    will-change: translate, opacity, scale;
+}
+@keyframes stackButtonsAnimation {
+    from {
+        translate: -40px 0;
+        opacity: 0;
+        scale: 0.3;
+    }
+    to {
+        translate: 0 0;
+        opacity: 1;
+        scale: 1;
     }
 }
