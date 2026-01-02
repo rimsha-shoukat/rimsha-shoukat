@@ -63,3 +63,19 @@ body {
         opacity: 1;
     }
 }
+
+/* blob animation */
+.blob {
+    animation: orbit 4s linear Infinite;
+    transform-box: view-box;
+    transform-origin: 200px 200px; 
+}
+
+@keyframes orbit {
+    from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }   
+}
