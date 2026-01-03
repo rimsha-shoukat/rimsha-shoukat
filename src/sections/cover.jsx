@@ -1,4 +1,3 @@
-
 import { ThemeProvider } from "@/components/themeProvider"
 
 export function Cover() {
@@ -7,7 +6,7 @@ export function Cover() {
             <main className="w-screen h-screen">
 
                 {/* navbar */}
-                <nav className="w-full h-auto px-8 py-3 flex flex-row items-center justify-between">
+                <nav className="fixed w-full h-auto px-8 py-3 flex flex-row items-center justify-between">
                     <h1 className="font-bold text-xl">rimsha</h1>
                     <span className="w-auto flex flex-row items-center justify-center gap-4">
                         <button className="navBtn1 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Home</button>
@@ -22,12 +21,12 @@ export function Cover() {
                 </nav>
 
                 {/* cover content */}
-                <section className="w-full h-[calc(100vh-4rem)] flex flex-col items-center justify-center gap-4">
+                <section className="w-full h-[calc(100vh+4rem)] flex flex-col items-center justify-center gap-4">
                     <div className="flex flex-col items-start gap-16">
                         {/* intro */}
                         <div className="flex flex-row items-center justify-center gap-16">
                             <span className="flex flex-col items-start justify-center gap-6 w-[45vw]">
-                                <h1 className="text-4xl font-bold line-clamp-2">Full Stack Next.js <br /> Developer </h1>
+                                <h1 className="text-[2.5rem] leading-[1.1] font-bold line-clamp-2">Full Stack Next.js <br /> Developer </h1>
                                 <p className="dark:text-[#f1f1f1] text-[#0a0a0a] line-clamp-3">Building scalable, high-performance web applications with modern technologies and a strong focus on clean design and user experience.</p>
                                 {/* connection links */}
                                 <span className="flex flex-row items-center justify-start gap-3 mt-4">
@@ -69,7 +68,7 @@ export function Cover() {
                         </div>
                         {/* tech stack */}
                         <span className="flex flex-row">
-                            <h1 className="font-semibold">Tech stack</h1>
+                            <h1 className="text-[1.1rem]">Tech stack</h1>
                             <span className="flex flex-row items-center justify-center gap-3 border-l-2 border-gray-400 dark:border-white/50 h-6 pl-4 ml-4">
                                 <svg className="stackBtn" width="25px" height="25px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
                                 <svg className="stackBtn" width="25px" height="25px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
