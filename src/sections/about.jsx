@@ -3,20 +3,18 @@ export function About() {
     return (
         <>
             <section className="w-full flex flex-row items-center justify-center">
-                <div className="aboutSection w-[80vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-between p-10 gap-2">
+                <div className="aboutSection w-[77vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-between p-10 gap-2">
                     {/* about me */}
                     <span className="w-1/2 flex flex-col items-start justify-center gap-5">
                         <h1 className="text-2xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>
                         <p className="text-justify">I am a Front-End Developer with a solid foundation in HTML, CSS, JavaScript,
                             React.js, Framer motion, and Tailwind CSS, currently expanding my skill set towards full-stack
-                            development using Next.js. Since 2024, I have been building responsive and
+                            development using Next.js.
+                            <br /><br />
+                            Since 2024, I have been building responsive and
                             accessible web applications with a strong focus on performance, maintainable
                             code, and user experience.
-                            <br /><br />
-                            As an IT student, I actively develop my skills through practical projects,
-                            recognised certifications, and continuous learning. I take a structured and
-                            detail-oriented approach to development and aim to contribute to teams that
-                            value code quality, collaboration, and long-term scalability.</p>
+                        </p>
                         {/* resume link button */}
                         <button className="px-4 py-2 bg-black text-[#f1f1f1] dark:bg-white dark:text-[#0a0a0a] rounded-sm font-semibold hover:bg-[#0a0a0a]/90 dark:hover:bg-[#f1f1f1]/90 transition-all duration-300 ease-in-out">Click to view resume
                             <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>

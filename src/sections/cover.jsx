@@ -6,7 +6,7 @@ export function Cover() {
             <main className="w-screen h-screen">
 
                 {/* navbar */}
-                <nav className="fixed w-full h-auto px-8 py-3 flex flex-row items-center justify-between">
+                <nav className="fixed w-full h-auto px-8 py-3 flex flex-row items-center justify-between bg-white/50 dark:bg-black/50 z-10">
                     <h1 className="font-bold text-xl">rimsha</h1>
                     <span className="w-auto flex flex-row items-center justify-center gap-4">
                         <button className="navBtn1 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Home</button>
