@@ -162,7 +162,6 @@ p {
 }
 
 /* about animation */
-
 .aboutSection {
     animation: aboutAnimation 2s linear;
     animation-timeline: view();
@@ -170,13 +169,75 @@ p {
 }
 
 @keyframes aboutAnimation {
-    from {
+from {
         opacity: 0.2;
         scale: 0.7;
         translate: 0 40px;
-    }to{
+    } to {
         opacity: 1;
         scale: 1;
         translate: 0 0;
+    }
+}
+
+/* contact buttons circle animation */
+.contactDiv {
+    animation: contactBtnCircleAnimation 1s ease-out both;
+    will-change: opacity, scale;
+}
+@keyframes contactBtnCircleAnimation{
+    from{
+        scale: 0;
+        opacity: 0;
+    } to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+/* contact button animation */
+.contactBtn1 {
+    animation: contactBtnAnimation1 1s ease-out both;
+    will-change: translate, opacity, scale;
+}
+@keyframes contactBtnAnimation1{
+    from {
+        opacity: 0;
+        scale: 0;
+        translate: 0 0;
+    } to {
+        opacity: 1;
+        scale: 1;
+    translate: -70px -70px;
+    }
+}
+.contactBtn2 {
+    animation: contactBtnAnimation2 1s ease-out both;
+    will-change: translate, opacity, scale;
+}
+@keyframes contactBtnAnimation2{
+    from{
+        opacity: 0;
+        scale: 0;
+        translate: 0 0;
+    } to {
+        opacity: 1;
+        scale: 1;
+        translate: 0px -90px;
+    }
+}
+.contactBtn3 {
+    animation: contactBtnAnimation3 1s ease-out both;
+    will-change: translate, opacity, scale;
+}
+@keyframes contactBtnAnimation3{
+    from{
+        opacity: 0;
+        scale: 0;
+        translate: 0 0;
+    } to {
+        opacity: 1;
+        scale: 1;
+        translate: 70px -70px;
     }
 }
