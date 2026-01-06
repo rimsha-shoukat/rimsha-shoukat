@@ -7,9 +7,6 @@ export function Projects() {
                     <div className="w-[60%] flex flex-col">
                         <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50 font-semibold">MY Work</p>
                         <h1 className="text-4xl font-extrabold">Projects</h1>
-                        <p className="text-justify mt-4 line-clamp-4 dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80">
-                            As an IT student, I build my skills through practical projects, recognised certifications, and continuous learning. I take a structured and detail-oriented approach to development and aim to contribute to teams that value code quality, collaboration, and long-term scalability.
-                        </p>
                     </div>
                     <div className="w-full h-auto flex flex-row items-start justify-start gap-8 overflow-x-scroll [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
                         {/* projects scroll */}

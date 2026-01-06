@@ -2,7 +2,7 @@ import React from 'react';
 import { Cover } from '../sections/cover';
 import { About } from '../sections/about';
 import { Projects } from "../sections/projects";
-import { Work } from "../sections/work";
+import { Experience } from "../sections/experience";
 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <Cover />
         <About />
         <Projects />
-        <Work />
+        <Experience />
       </section>
     </>
   );

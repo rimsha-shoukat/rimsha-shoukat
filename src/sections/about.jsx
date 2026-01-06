@@ -8,9 +8,9 @@ export function About() {
                     <span className="w-1/2 flex flex-col items-start justify-center gap-5">
                         <h1 className="text-2xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>
                         <p className="text-justify dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80">
-                            I am a Front-End Developer with hands-on experience in HTML, CSS, JavaScript, React.js, Framer Motion, and Tailwind CSS, currently progressing towards full-stack development using Next.js.
+                            I am an IT student and Front-End Developer with hands-on experience in HTML, CSS, JavaScript, React.js, Framer Motion, and Tailwind CSS, currently progressing towards full-stack development using Next.js.
                             <br /><br />
-                            Since 2024, I have been building responsive and accessible web applications, with a strong focus on performance, clean and maintainable code, and intuitive user experiences.
+                            Since 2024, I have applied my skills to real-world projects. I focus on building responsive, accessible, and scalable web applications with clean, maintainable code and intuitive user experiences.
                         </p>
                         {/* resume link button */}
                         <button className="px-4 py-2 bg-black text-[#f1f1f1] dark:bg-white dark:text-[#0a0a0a] rounded-sm font-semibold hover:bg-[#0a0a0a]/90 dark:hover:bg-[#f1f1f1]/90 transition-all duration-300 ease-in-out">Click to view resume

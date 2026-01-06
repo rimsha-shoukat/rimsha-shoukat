@@ -12,7 +12,7 @@ export function Cover() {
                         <button className="navBtn1 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Home</button>
                         <button className="navBtn2 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">About</button>
                         <button className="navBtn3 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Projects</button>
-                        <button className="navBtn4 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Work</button>
+                        <button className="navBtn4 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Experience</button>
                         <button className="navBtn5 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Contact</button>
                         <span className="border-l-2 border-gray-400 dark:border-white/50 h-6 pl-4">
                             <ThemeProvider />
