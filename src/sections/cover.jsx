@@ -9,11 +9,11 @@ export function Cover() {
                 <nav className="fixed w-full h-auto px-8 py-3 flex flex-row items-center justify-between bg-white/50 dark:bg-black/50 z-10">
                     <h1 className="font-bold text-xl">rimsha</h1>
                     <span className="w-auto flex flex-row items-center justify-center gap-4">
-                        <button className="navBtn1 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Home</button>
-                        <button className="navBtn2 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">About</button>
-                        <button className="navBtn3 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Projects</button>
-                        <button className="navBtn4 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Work</button>
-                        <button className="navBtn5 text-sm hover:text-amber-900 transition-all duration-500 ease-in-out">Contact</button>
+                        <button className="navBtn1 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Home</button>
+                        <button className="navBtn2 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">About</button>
+                        <button className="navBtn3 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Projects</button>
+                        <button className="navBtn4 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Work</button>
+                        <button className="navBtn5 text-sm hover:dark:text-[#f1f1f1]/50 hover:text-[#0e0e0e]/80 transition-all duration-500 ease-in-out">Contact</button>
                         <span className="border-l-2 border-gray-400 dark:border-white/50 h-6 pl-4">
                             <ThemeProvider />
                         </span>
