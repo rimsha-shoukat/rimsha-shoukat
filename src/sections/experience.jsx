@@ -20,7 +20,7 @@ export function Experience() {
                         <div className="flex flex-col gap-12">
                             {/* Item */}
                             <div className="flex justify-between items-center w-full">
-                                <div className="w-1/2 text-right pr-8">
+                                <div className="internship w-1/2 text-right pr-8">
                                     <h2 className="font-bold text-xl cursor-default hover:underline" title="view certificate" >Internship</h2>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">Developers Hub Corporation</p>
                                     <p className="text-[0.95rem] mt-2">
@@ -39,7 +39,7 @@ export function Experience() {
                                 <div className="flex items-center justify-center w-8 h-8 bg-green-600 rounded-full z-10">
                                     <span className="text-white font-bold">2</span>
                                 </div>
-                                <div className="w-1/2 pl-8 text-left">
+                                <div className="opensource w-1/2 pl-8 text-left">
                                     <h2 className="font-bold text-xl cursor-default hover:underline" title="view in github" >Open-Source Contributions</h2>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">GitHub Projects</p>
                                     <p className="text-[0.95rem] mt-2">
@@ -50,7 +50,7 @@ export function Experience() {
 
                             {/* Item */}
                             <div className="flex justify-between items-center w-full">
-                                <div className="w-1/2 text-right pr-8">
+                                <div className="leetcode w-1/2 text-right pr-8">
                                     <h2 className="font-bold text-xl cursor-default hover:underline" title="view leet profile">LeetCode Practice</h2>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">Self-Learning</p>
                                     <p className="text-[0.95rem] mt-2">
