@@ -2,7 +2,7 @@
 export function Experience() {
     return (
         <>
-            <section className="w-full mt-32 mb-20 flex items-center justify-center">
+            <section className="w-full flex items-center justify-center">
                 <div className="w-[77vw] flex flex-col gap-12">
                     <div className="text-center">
                         <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50 font-semibold">MY Contributions</p>
@@ -14,7 +14,7 @@ export function Experience() {
 
                     <div className="relative">
                         {/* Vertical Line */}
-                        <div className="absolute left-1/2 top-0 h-full w-1 dark:bg-[#f1f1f1]/50 bg-[#0e0e0e]/30"></div>
+                        <div className="absolute left-1/2 top-0 h-full w-1 dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/20"></div>
 
                         {/* Items */}
                         <div className="flex flex-col gap-12">

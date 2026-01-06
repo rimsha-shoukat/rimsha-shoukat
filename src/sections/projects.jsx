@@ -18,7 +18,7 @@ export function Projects() {
                                 </button>
                             </div>
                             {/* description */}
-                            <div className="w-84 p-4 flex flex-col gap-2">
+                            <div className="w-84 px-4 flex flex-col gap-2">
                                 <h1 className="font-bold text-lg line-clamp-1 cursor-default" title="view project live">Internship Projects
                                     <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
                                 </h1>
@@ -40,7 +40,7 @@ export function Projects() {
                                 </button>
                             </div>
                             {/* description */}
-                            <div className="w-84 p-4 flex flex-col gap-2">
+                            <div className="w-84 px-4 flex flex-col gap-2">
                                 <h1 className="font-bold text-lg line-clamp-1 cursor-default" title="view project live">Shoppey — E-commerce App
                                     <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
                                 </h1>
@@ -63,7 +63,7 @@ export function Projects() {
                                 </button>
                             </div>
                             {/* description */}
-                            <div className="w-84 p-4 flex flex-col gap-2">
+                            <div className="w-84 px-4 flex flex-col gap-2">
                                 <h1 className="font-bold text-lg line-clamp-1 cursor-default" title="view project live">Trello — Task Management App
                                     <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
                                 </h1>
@@ -86,7 +86,7 @@ export function Projects() {
                                 </button>
                             </div>
                             {/* description */}
-                            <div className="w-84 p-4 flex flex-col gap-2">
+                            <div className="w-84 px-4 flex flex-col gap-2">
                                 <h1 className="font-bold text-lg line-clamp-1 cursor-default" title="view project live">Personal Portfolio
                                     <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
                                 </h1>

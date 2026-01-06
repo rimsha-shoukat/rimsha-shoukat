@@ -3,7 +3,7 @@ import { Cover } from '../sections/cover';
 import { About } from '../sections/about';
 import { Projects } from "../sections/projects";
 import { Experience } from "../sections/experience";
-
+import { Contact } from "../sections/contact"
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
         <About />
         <Projects />
         <Experience />
+        <Contact />
       </section>
     </>
   );
