@@ -3,7 +3,7 @@ export function About() {
     return (
         <>
             <section className="w-full flex flex-row items-center justify-center">
-                <div className="aboutSection w-[77vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-between p-10 gap-2">
+                <div className="aboutSection w-[77vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-center p-10 gap-2">
                     {/* about me */}
                     <span className="w-1/2 flex flex-col items-start justify-center gap-5">
                         <h1 className="text-2xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>

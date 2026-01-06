@@ -1,40 +1,8 @@
-import Image from "next/image";
-
-const projects = [
-    {
-        id: 0,
-        image: "shoppey",
-        title: "Shoppey",
-        detail: "lorem w-full h-auto mt-32 mb-20 flex items-center justify-center w-full h-auto mt-32 mb-20 flex items-center justify-center",
-        tech: ["reactjs", "api", "tailwindcss", "css"]
-    },
-    {
-        id: 1,
-        image: "internship",
-        title: "Brand",
-        detail: "lorem w-full h-auto mt-32 mb-20 flex items-center justify-center w-full h-auto mt-32 mb-20 flex items-center justify-center",
-        tech: ["js", "css", "html", "tailwindcss"]
-    },
-    {
-        id: 2,
-        image: "trello",
-        title: "Trello",
-        detail: "lorem w-full h-auto mt-32 mb-20 flex items-center justify-center w-full h-auto mt-32 mb-20 flex items-center justify-center",
-        tech: ["nextjs", "mongodb", "jwt", "shadcnui"]
-    },
-    {
-        id: 3,
-        image: "portfolio",
-        title: "Portfolio",
-        detail: "lorem w-full h-auto mt-32 mb-20 flex items-center justify-center w-full h-auto mt-32 mb-20 flex items-center justify-center",
-        tech: ["reactjs", "tailwindcss", "css", "html"]
-    },
-]
 
 export function Projects() {
     return (
         <>
-            <section className="w-full h-auto mt-32 mb-20 flex items-center justify-center">
+            <section className="w-full h-auto mt-30 mb-30 flex items-center justify-center">
                 <div className="w-[77vw] h-auto flex flex-col items-start justify-center gap-8">
                     <div className="w-[60%] flex flex-col">
                         <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50 font-semibold">MY Work</p>

@@ -3,7 +3,7 @@ import { ThemeProvider } from "@/components/themeProvider"
 export function Cover() {
     return (
         <>
-            <main className="w-screen h-screen">
+            <main className="w-full h-screen">
 
                 {/* navbar */}
                 <nav className="fixed w-full h-auto px-8 py-3 flex flex-row items-center justify-between bg-white/50 dark:bg-black/50 z-10">
