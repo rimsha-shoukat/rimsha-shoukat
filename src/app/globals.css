@@ -72,7 +72,8 @@ p {
 
 /* blob animation */
 .blob {
-    animation: orbit 4.5s linear Infinite;
+    animation: orbit 4.5s linear infinite;
+    will-change: transform;
     transform-box: view-box;
     transform-origin: 200px 200px; 
 }
@@ -180,21 +181,6 @@ from {
     }
 }
 
-/* contact buttons circle animation */
-.contactDiv {
-    animation: contactBtnCircleAnimation 1s linear both;
-    will-change: opacity, scale;
-}
-@keyframes contactBtnCircleAnimation{
-    from {
-        scale: 0;
-        opacity: 0;
-    } to {
-        scale: 1;
-        opacity: 1;
-    }
-}
-
 /* experience section animations */
 .internship{
     animation: internshipAnimation 2s linear;
@@ -239,49 +225,47 @@ from {
     }
 } 
 
+/* contact buttons circle animation */
+.contactDiv {
+    opacity: 0;
+    scale: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease, scale 0.4s ease;
+}
+.contactDiv.active {
+   opacity: 1;
+   scale: 1;
+}
+
 /* contact button animation */
-.contactBtn1 {
-    animation: contactBtnAnimation1 1s ease-out both;
-    will-change: translate, opacity, scale;
+.contactBtn {
+  position: absolute;
+  opacity: 0;
+  scale: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease, translate 0.5s ease, scale 0.5s ease;
 }
-@keyframes contactBtnAnimation1{
-    from {
-        opacity: 0;
-        scale: 0;
-        translate: 0 0;
-    } to {
-        opacity: 1;
-        scale: 1;
-        translate: -70px -70px;
-    }
+.contactBtn.active {
+  opacity: 1;
+  scale: 1;
+  pointer-events: auto;
 }
-.contactBtn2 {
-    animation: contactBtnAnimation2 1s ease-out both;
-    will-change: translate, opacity, scale;
+.btn1.active {
+   translate: -70px -70px;
 }
-@keyframes contactBtnAnimation2{
-    from{
-        opacity: 0;
-        scale: 0;
-        translate: 0 0;
-    } to {
-        opacity: 1;
-        scale: 1;
-        translate: 0px -90px;
-    }
+.btn2.active {
+  translate: 0 -100px;
 }
-.contactBtn3 {
-    animation: contactBtnAnimation3 1s ease-out both;
-    will-change: translate, opacity, scale;
+.btn3.active {
+ translate: 70px -70px;
 }
-@keyframes contactBtnAnimation3{
-    from{
-        opacity: 0;
-        scale: 0;
-        translate: 0 0;
-    } to {
-        opacity: 1;
-        scale: 1;
-        translate: 70px -70px;
-    }
+
+/* contact image styling */
+.a {fill:#dbdbe3}
+.d {fill-opacity:.63}
+.b {
+    stroke:#000000;
+    stroke-linecap:round;
+    stroke-linejoin:round
 }
+.c {fill:#fff}
+
