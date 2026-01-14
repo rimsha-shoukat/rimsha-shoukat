@@ -21,7 +21,9 @@ export function Experience() {
                             {/* Item */}
                             <div className="flex justify-between items-center w-full">
                                 <div className="internship w-1/2 text-right pr-8">
-                                    <h2 className="font-bold text-xl cursor-default hover:underline" title="view certificate" >Internship</h2>
+                                    <a href="https://drive.google.com/file/d/1MrDm3DX6oz_Dg3oxnTqBSydo-4RARs_v/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <h2 className="font-bold text-xl cursor-default hover:underline" title="view certificate" >Internship</h2>
+                                    </a>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">Developers Hub Corporation</p>
                                     <p className="text-[0.95rem] mt-2">
                                         Developed real-world front-end tasks focusing on clean UI, responsiveness, and maintainable code.
@@ -40,7 +42,9 @@ export function Experience() {
                                     <span className="text-white font-bold">2</span>
                                 </div>
                                 <div className="opensource w-1/2 pl-8 text-left">
-                                    <h2 className="font-bold text-xl cursor-default hover:underline" title="view in github" >Open-Source Contributions</h2>
+                                    <a href="https://github.com/repos?q=owner%3A%40me+fork%3Atrue" target="_blank" rel="noopener noreferrer">
+                                        <h2 className="font-bold text-xl cursor-default hover:underline" title="view in github" >Open-Source Contributions</h2>
+                                    </a>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">GitHub Projects</p>
                                     <p className="text-[0.95rem] mt-2">
                                         Contributed to multiple open-source projects, adding features, improving features and fixing bugs.
@@ -51,7 +55,9 @@ export function Experience() {
                             {/* Item */}
                             <div className="flex justify-between items-center w-full">
                                 <div className="leetcode w-1/2 text-right pr-8">
-                                    <h2 className="font-bold text-xl cursor-default hover:underline" title="view leet profile">LeetCode Practice</h2>
+                                    <a href="https://leetcode.com/u/rimsha-devs/" target="_blank" rel="noopener noreferrer">
+                                        <h2 className="font-bold text-xl cursor-default hover:underline" title="view leet profile">LeetCode Practice</h2>
+                                    </a>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">Self-Learning</p>
                                     <p className="text-[0.95rem] mt-2">
                                         Practiced DSA problems regularly to improve problem-solving and coding efficiency.
