@@ -7,10 +7,10 @@ export function Cover() {
             <section className="w-screen h-screen flex flex-col items-center justify-center gap-4">
                 <div className="flex flex-col items-start gap-16">
                     {/* intro */}
-                    <div className="flex flex-row items-center justify-center gap-16">
-                        <span className="flex flex-col items-start justify-center gap-6 w-[45vw]">
-                            <h1 className="text-[2.5rem] leading-[1.1] font-bold line-clamp-2">Full Stack Next.js <br /> Developer </h1>
-                            <p className="dark:text-[#f1f1f1] text-[#0a0a0a] line-clamp-3">Building scalable, high-performance web applications with modern technologies and a strong focus on clean design and user experience.</p>
+                    <div className="flex flex-row items-center w-full justify-center gap-16 max-[600px]:gap-0">
+                        <span className="flex flex-col items-start justify-center gap-6 w-[45vw] max-[600px]:w-[90vw]">
+                            <h1 className="text-[2.5rem] max-[600px]:text-[2rem] leading-[1.1] font-bold line-clamp-2">Full Stack Next.js <br /> Developer </h1>
+                            <p className="dark:text-[#f1f1f1] text-[#0a0a0a] line-clamp-3 max-[600px]:text-xs">Building scalable, high-performance web applications with modern technologies and a strong focus on clean design and user experience.</p>
                             {/* connection as */}
                             <span className="flex flex-row items-center justify-start gap-3 mt-4">
                                 <a className="link1 bg-[#f1f1f1] dark:bg-[#0a0a0a] border-0 rounded-full hover:bg-gray-300 dark:hover:bg-white/10 transition-all duration-500 ease-in-out" href="https://github.com/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
@@ -36,7 +36,7 @@ export function Cover() {
                             </span>
                         </span>
                         {/* image */}
-                        <span className="w-50 h-50 flex items-center justify-center">
+                        <span className="max-[600px]:hidden  w-50 h-50 flex items-center justify-center">
                             <svg viewBox="-50 -50 480.00 480.00" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g className="blob">
                                     <path transform="translate(-55, -55), scale(15)" d="M16,27.817970912437886C19.096637906886553,27.911588926437723,22.468399667037968,28.522431585961947,24.938192294727543,26.652122778539436C27.460441058326087,24.742090323109412,28.609858929496927,21.395511563010924,28.658486814388006,18.23203276031895C28.702315730468168,15.380750059557387,26.858150165000733,13.00598437467362,25.183434361911274,10.697941699065272C23.706656931773637,8.662691703307736,22.000968470171742,6.8540409310095365,19.687545325273188,5.868552485596473C17.25419438073704,4.8319763431110925,14.52979920681167,4.228266976198288,12.0309621110281,5.0951580230898585C9.508461534382203,5.970258352504268,7.67013982052991,8.109876294009036,6.422505321795265,10.470430869376282C5.216140513279867,12.752902195065971,5.089186961480998,15.316970009276714,5.267128261926697,17.892494867905675C5.469223267638262,20.81762079264139,5.351377540608832,24.134296344695024,7.504072682837105,26.12505190264816C9.690050254250934,28.14658617124341,13.023928160580255,27.727997869574942,16,27.817970912437886"
@@ -59,8 +59,8 @@ export function Cover() {
                     </div>
                     {/* tech stack */}
                     <span className="flex flex-row">
-                        <h1 className="text-[1.1rem]">Tech stack</h1>
-                        <span className="flex flex-row items-center justify-center gap-4 border-l-2 border-gray-400 dark:border-white/50 h-6 pl-4 ml-4">
+                        <h1 className="text-[1.1rem] max-[600px]:hidden">Tech stack</h1>
+                        <span className="flex flex-row items-center justify-center gap-4 max-[600px]:gap-2 border-l-2 border-gray-400 dark:border-white/50 h-6 pl-4 ml-4 max-[600px]:ml-2 max-[600px]:pl-2">
                             <svg className="stackBtn" width="25px" height="25px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#E44D26"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#F16529"></path> <path d="M9.5 17.5L8.5 8H24L23.5 11H11.5L12 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5H9.5Z" fill="white"></path> </g></svg>
                             <svg className="stackBtn" width="25px" height="25px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M6 28L4 3H28L26 28L16 31L6 28Z" fill="#1172B8"></path> <path d="M26 5H16V29.5L24 27L26 5Z" fill="#33AADD"></path> <path d="M19.5 17.5H9.5L9 14L17 11.5H9L8.5 8.5H24L23.5 12L17 14.5H23L22 24L16 26L10 24L9.5 19H12.5L13 21.5L16 22.5L19 21.5L19.5 17.5Z" fill="white"></path> </g></svg>
                             <svg className="stackBtn" xmlns="http://www.w3.org/2000/svg" aria-label="JavaScript" role="img" viewBox="0 0 512 512" width="25px" height="25px" fill="#000000"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="512" height="512" rx="15%" fill="#f7df1e"></rect><path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"></path></g></svg>

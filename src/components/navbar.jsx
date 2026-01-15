@@ -35,7 +35,7 @@ export function Navbar() {
         return (
             <button
                 onClick={() => scrollTo(id)}
-                className={`${animationClasses} text-sm transition-all duration-300 ease-in-out
+                className={`${animationClasses} max-[600px]:hidden  text-sm transition-all duration-300 ease-in-out
             ${isActive ? "opacity-40 pointer-events-none" : "hover:opacity-70"}`}
             >
                 {label}
@@ -53,7 +53,7 @@ export function Navbar() {
                 {btn("projects", "Projects", "navBtn3")}
                 {btn("experience", "Experience", "navBtn4")}
                 {btn("contact", "Contact", "navBtn5")}
-                <span className="border-l-2 h-6 pl-4">
+                <span className="border-l-2 max-[600px]:border-l-0 h-6 pl-4">
                     <ThemeProvider />
                 </span>
             </div>
