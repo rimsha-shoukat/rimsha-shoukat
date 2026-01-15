@@ -4,6 +4,34 @@ import React, { useState } from "react";
 export function Contact() {
     const [active, setActive] = useState(false);
     const [clicked, setClicked] = useState(false);
+    const [sender, setSender] = useState("");
+    const [inquiry, setInquiry] = useState("");
+    const isDisable = !sender || !inquiry;
+    const number = "923180812170";
+    const email = "rimsha.devs@gmail.com";
+    const linkedinUrl = "https://www.linkedin.com/in/rimsha-shoukat/";
+
+    // encode message
+    const getMessage = () =>
+        encodeURIComponent(`Name: ${sender}\n\nMessage:\n${inquiry}`);
+    // send whatsapp message
+    const handleWhatsapp = () => {
+        if (!sender || !inquiry) return alert("Please fill all fields");
+        window.open(
+            `https://wa.me/${number}?text=${getMessage()}`,
+            "_blank"
+        );
+    };
+    // send email
+    const handleEmail = () => {
+        if (!sender || !inquiry) return alert("Please fill all fields");
+        window.location.href =
+            `mailto:${email}?subject=New Inquiry from ${sender}&body=${getMessage()}`;
+    };
+    // open linkedIn
+    const handleLinkedin = () => {
+        window.open(linkedinUrl, "_blank");
+    };
 
     return (
         <>
@@ -16,23 +44,34 @@ export function Contact() {
                     <div className="mt-10 w-full flex flex-row items-center justify-center gap-4">
                         {/* contact form  */}
                         <div className="w-1/2 flex flex-col items-start justify-center gap-8">
-                            <input className="px-4 py-2 border w-full rounded-md dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/10" type="text" placeholder="Enter Your Name" />
-                            <textarea rows="8" placeholder="Type Your Message Here..." className="border resize-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] w-full px-4 py-2 rounded-md dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/10" />
+                            <input
+                                className="px-4 py-2 border w-full rounded-md dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/10"
+                                type="text" placeholder="Enter Your Name" value={sender}
+                                onChange={(e) => setSender(e.target.value)} />
+                            <textarea
+                                value={inquiry} onChange={(e) => setInquiry(e.target.value)}
+                                rows="8" placeholder="Type Your Message Here..." className="border resize-none [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] w-full px-4 py-2 rounded-md dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/10" />
                             <div className="relative flex items-center justify-center">
                                 {/* Animated circle */}
                                 <div className={`contactDiv ${active ? "active" : ""} absolute w-48 h-48 dark:bg-[#f1f1f1]/10 bg-[#0e0e0e]/20 rounded-full`} />
                                 {/* send button */}
-                                <button onClick={() => setActive(!active)} className="tracking-wider z-10 px-4 py-2 bg-black text-[#f1f1f1] dark:bg-white dark:text-[#0a0a0a] rounded-sm font-semibold hover:bg-[#0a0a0a]/90 dark:hover:bg-[#f1f1f1]/90 transition-all duration-300 ease-in-out">
+                                <button disabled={isDisable} onClick={() => setActive(!active)} className={`tracking-wider z-10 px-4 py-2 ${isDisable ? "bg-gray-500 dark:bg-gray-400" : "bg-black dark:bg-white hover:bg-[#0a0a0a]/90 dark:hover:bg-[#f1f1f1]/90"} text-[#f1f1f1] dark:text-[#0a0a0a] rounded-sm font-semibold transition-all duration-300 ease-in-out`}>
                                     SEND MESSAGE
                                 </button>
+                                {
+                                    !active &&
+                                    <p className="absolute bottom-10 left-0 line-clamp-1 text-xs opacity-60 text-center">
+                                        Choose contact method
+                                    </p>
+                                }
                                 {/* sending message methods buttons */}
-                                <button className={`contactBtn btn1 ${active ? "active" : ""} absolute p-3 rounded-full bg-green-800 hover:bg-green-800/70 transition-colors duration-300 ease-in-out`}>
+                                <button onClick={handleWhatsapp} className={`contactBtn btn1 ${active ? "active" : ""} absolute p-3 rounded-full bg-green-800 hover:bg-green-800/70 transition-colors duration-300 ease-in-out`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg>
                                 </button>
-                                <button className={`contactBtn btn2 ${active ? "active" : ""} absolute p-3 rounded-full bg-red-800 hover:bg-red-800/70 transition-colors duration-300 ease-in-out`}>
+                                <button onClick={handleEmail} className={`contactBtn btn2 ${active ? "active" : ""} absolute p-3 rounded-full bg-red-800 hover:bg-red-800/70 transition-colors duration-300 ease-in-out`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M17 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 1-1.732" /><path d="m22 5.5-6.419 4.179a2 2 0 0 1-2.162 0L7 5.5" /><rect x="7" y="3" width="15" height="12" rx="2" /></svg>
                                 </button>
-                                <button className={`contactBtn btn3 ${active ? "active" : ""} absolute p-3 rounded-full bg-blue-800 hover:bg-blue-800/70 transition-colors duration-300 ease-in-out`}>
+                                <button onClick={handleLinkedin} className={`contactBtn btn3 ${active ? "active" : ""} absolute p-3 rounded-full bg-blue-800 hover:bg-blue-800/70 transition-colors duration-300 ease-in-out`}>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" /><rect width="4" height="12" x="2" y="9" /><circle cx="4" cy="4" r="2" /></svg>
                                 </button>
                             </div>
