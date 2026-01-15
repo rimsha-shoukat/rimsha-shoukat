@@ -3,11 +3,11 @@ export function About() {
     return (
         <>
             <section className="w-full flex flex-row items-center justify-center">
-                <div className="aboutSection w-[77vw] max-[600px]:w-[90vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-center max-[600px]:p-4 p-10 gap-2">
+                <div className="aboutSection w-[77vw] max-[600px]:w-[90vw] h-auto bg-[#f1f1f1] dark:bg-[#0a0a0a] border border-[#0a0a0a]/50 dark:border-[#f1f1f1]/50 rounded-md flex flex-row items-center justify-center max-[1300px]:p-6 p-10 gap-2">
                     {/* about me */}
-                    <span className="w-1/2 max-[600px]:w-2/2 flex flex-col items-start justify-center gap-5">
-                        <h1 className="text-2xl max-[600px]:text-xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>
-                        <p className="text-justify dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80 max-[600px]:text-sm">
+                    <span className="w-1/2 max-[1300px]:w-2/2 flex flex-col items-start justify-center gap-5">
+                        <h1 className="text-2xl max-[1300px]:text-xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>
+                        <p className="text-justify dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80 max-[1300px]:text-sm">
                             I am an IT student and Front-End Developer with hands-on experience in HTML, CSS, JavaScript, React.js, Framer Motion, and Tailwind CSS, currently progressing towards full-stack development using Next.js.
                             <br /><br />
                             Since 2024, I have applied my skills to real-world projects. I focus on building responsive, accessible, and scalable web applications with clean, maintainable code and intuitive user experiences.
@@ -20,7 +20,7 @@ export function About() {
                         </a>
                     </span>
                     {/* certificates */}
-                    <span className="w-1/2 max-[600px]:hidden h-full flex items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out">
+                    <span className="w-1/2 max-[1300px]:hidden h-full flex items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out">
                         <a className="cursor-default absolute -rotate-6 -translate-x-1/3 -translate-y-8 w-65 h-auto border border-[#0a0a0a] dark:border-[#f1f1f1]/30 bg-[#f1f1f1] dark:bg-[#0a0a0a] rounded-sm" href="https://drive.google.com/file/d/1iRtutVGXnfCuefsvE3SEtbXm5RlYSbmu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span className="w-65 h-auto">
                                 <div className="w-full h-45 bg-[url('/assests/python.png')] bg-cover bg-no-repeat bg-center"></div>

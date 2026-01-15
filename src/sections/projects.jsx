@@ -3,7 +3,7 @@ export function Projects() {
     return (
         <>
             <section className="w-full h-auto mt-30 mb-30 flex items-center justify-center">
-                <div className="w-[77vw] h-auto flex flex-col items-start justify-center gap-8">
+                <div className="w-[77vw] max-[600px]:w-[90vw] h-auto flex flex-col items-start justify-center gap-8">
                     <div className="w-[60%] flex flex-col">
                         <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50 font-semibold">MY Work</p>
                         <h1 className="text-4xl font-extrabold">Projects</h1>

@@ -41,9 +41,9 @@ export function Contact() {
                         <p className="text-sm tracking-wider dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">GET IN TOUCH</p>
                         <h1 className="text-4xl font-extrabold">Contact</h1>
                     </div>
-                    <div className="mt-10 w-full flex flex-row max-[600px]:flex-col-reverse items-center justify-center gap-4 max-[600px]:gap-10">
+                    <div className="mt-10 w-full flex flex-row max-[780px]:flex-col-reverse items-center justify-center gap-4 max-[780px]:gap-10">
                         {/* contact form  */}
-                        <div className="w-1/2 max-[600px]:w-full flex flex-col items-start justify-center gap-8">
+                        <div className="w-1/2 max-[780px]:w-full flex flex-col items-start justify-center gap-8">
                             <input
                                 className="px-4 py-2 border w-full rounded-md dark:bg-[#f1f1f1]/20 bg-[#0e0e0e]/10"
                                 type="text" placeholder="Enter Your Name" value={sender}
@@ -77,7 +77,7 @@ export function Contact() {
                             </div>
                         </div>
                         {/* Image with as */}
-                        <div className="relative w-1/2 max-[600px]:w-full h-full flex items-center justify-center">
+                        <div className="relative w-1/2 max-[780px]:w-full h-full flex items-center justify-center">
                             {/* contact methods buttons */}
                             <a className={`methods method1 ${clicked ? "clicked" : ""} absolute p-2 rounded-full bg-gray-800 hover:bg-gray-900/70 transition-colors duration-300 ease-in-out cursor-default`} href="https://github.com/rimsha-shoukat" target="_blank" rel="noopener noreferrer">
                                 <button className={`p-2 rounded-full bg-gray-800 hover:bg-gray-900/70 transition-colors duration-300 ease-in-out`}>
