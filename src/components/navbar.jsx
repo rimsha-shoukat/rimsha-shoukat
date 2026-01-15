@@ -30,12 +30,12 @@ export function Navbar() {
         return () => observer.disconnect();
     }, []);
 
-    const btn = (id, label) => {
+    const btn = (id, label, animationClasses = "") => {
         const isActive = activeSection === id;
         return (
             <button
                 onClick={() => scrollTo(id)}
-                className={`text-sm transition-all duration-300 ease-in-out
+                className={`${animationClasses} text-sm transition-all duration-300 ease-in-out
             ${isActive ? "opacity-40 pointer-events-none" : "hover:opacity-70"}`}
             >
                 {label}
@@ -48,11 +48,11 @@ export function Navbar() {
             <h1 className="font-bold text-xl">rimsha</h1>
 
             <div className="flex items-center gap-4">
-                {btn("home", "Home")}
-                {btn("about", "About")}
-                {btn("projects", "Projects")}
-                {btn("experience", "Experience")}
-                {btn("contact", "Contact")}
+                {btn("home", "Home", "navBtn1")}
+                {btn("about", "About", "navBtn2")}
+                {btn("projects", "Projects", "navBtn3")}
+                {btn("experience", "Experience", "navBtn4")}
+                {btn("contact", "Contact", "navBtn5")}
                 <span className="border-l-2 h-6 pl-4">
                     <ThemeProvider />
                 </span>
