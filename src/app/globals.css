@@ -45,6 +45,7 @@ p {
 /* switch theme animations */
 .sun {
     animation: switchThemeSun 0.5s linear;
+will-change: opacity;
 }
 @keyframes switchThemeSun {
     from {
@@ -58,6 +59,7 @@ p {
 }
 .moon {
     animation: switchThemeMoon 0.5s linear;
+will-change: opacity;
 }
 @keyframes switchThemeMoon {
     from {
