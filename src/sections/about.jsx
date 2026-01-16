@@ -23,19 +23,19 @@ export function About() {
                     <span className="w-1/2 max-[1300px]:hidden h-full flex items-center justify-center hover:scale-105 transition-all duration-300 ease-in-out">
                         <a className="cursor-default absolute -rotate-6 -translate-x-1/3 -translate-y-8 w-65 h-auto border border-[#0a0a0a] dark:border-[#f1f1f1]/30 bg-[#f1f1f1] dark:bg-[#0a0a0a] rounded-sm" href="https://drive.google.com/file/d/1iRtutVGXnfCuefsvE3SEtbXm5RlYSbmu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span className="w-65 h-auto">
-                                <div className="w-full h-45 bg-[url('/assests/python.png')] bg-cover bg-no-repeat bg-center"></div>
+                                <div className="w-full h-45 bg-[url('/assets/python.PNG')] bg-cover bg-no-repeat bg-center"></div>
                                 <p className="p-2 text-xs text-[#000000] dark:text-[#f1f1f1]">Python Programming Certification — Cisco Networking Academy.</p>
                             </span>
                         </a>
                         <a className="cursor-default absolute -rotate-3 translate-x-2 w-65 h-auto border border-[#0a0a0a] dark:border-[#f1f1f1]/30 bg-[#f1f1f1] dark:bg-[#0a0a0a] rounded-sm" href="https://drive.google.com/file/d/11c4HsDF4glkQ7nbkPIuq_tAhzrd1Wpwu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span className="w-65 h-auto">
-                                <div className="w-full h-45 bg-[url('/assests/networks.png')] bg-cover bg-no-repeat bg-center"></div>
+                                <div className="w-full h-45 bg-[url('/assets/networks.PNG')] bg-cover bg-no-repeat bg-center"></div>
                                 <p className="p-2 text-xs text-[#0a0a0a] dark:text-[#f1f1f1]">Introduction to Networks — Cisco Networking Academy.</p>
                             </span>
                         </a>
                         <a className="cursor-default absolute w-65 h-auto border border-[#0a0a0a] dark:border-[#f1f1f1]/30 translate-x-1/2 translate-y-12 bg-[#f1f1f1] dark:bg-[#0a0a0a] rounded-sm" href="https://drive.google.com/file/d/1nU9oTUJL3dGlszmvF-_5ef5YfCPbyCn8/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <span className="w-65 h-auto">
-                                <div className="w-full h-45 bg-[url('/assests/c++.png')] bg-cover bg-no-repeat bg-center"></div>
+                                <div className="w-full h-45 bg-[url('/assets/c++.PNG')] bg-cover bg-no-repeat bg-center"></div>
                                 <p className="p-2 text-xs text-[#0a0a0a] dark:text-[#f1f1f1]">C++ Programming Certification — Cisco Networking Academy</p>
                             </span>
                         </a>
