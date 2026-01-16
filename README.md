@@ -23,6 +23,3 @@ I actively contribute to **open-source** projects and practice **LeetCode** to s
   <em>Active contributor and lifelong learner in the JS ecosystem.</em><br>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rimsha-shoukat&theme=github_dark" alt="GitHub Achievements"/>
 </p>
-
-## 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=rimsha-shoukat&limit=5&theme=github_dark&combine_all_yearly_contributions=true)
