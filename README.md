@@ -1,18 +1,48 @@
-# ✨ Full-Stack JavaScript Developer
+<!-- About Me Section -->
+<div align="left" style="max-width:700px; line-height:1; padding:24px; border-radius:12px; background:#0d1117; color:#c9d1d9;">
 
-Hi, I’m a **Full-Stack JavaScript Developer** with expertise in **React.js, Next.js, HTML, CSS, Tailwind CSS, and SVG.**  
-I build **scalable, production-ready web applications** with **MongoDB-backed Next.js backends.** 
-I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.  
-> Turning designs into clean, functional web apps while contributing to the developer community.
+  <!-- Animated Headings -->
+  <p style="margin-bottom:6px;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=28&pause=1200&color=58a6ff&center=false&vCenter=false&width=700&lines=Hi+👋,+I'm+Rimsha" />
+  </p>
+  <p style="margin-bottom:12px;">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1200&color=b794f4&center=false&vCenter=false&width=600&lines=Full-Stack+NextJs+Developer" />
+  </p>
 
-## 🌐 Socials
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/rimsha-shoukat)  [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rimsha.devs@gmail.com)  [![Portfolio](https://img.shields.io/badge/Portfolio-%2300BFFF.svg?logo=about-dot-me&logoColor=white)](https://rimsha-shoukat.vercel.app/) [![Resume](https://img.shields.io/badge/Resume-%23FF6F61.svg?logo=file&logoColor=white)](https://drive.google.com/file/d/1eBpDK8KwSEzHfDNR_AjkbPPPKlX6J7pJ/view?usp=sharing)
+  <!-- Intro Paragraph -->
+  <p style="font-size:16px; color:#c9d1d9; margin-bottom:20px;">
+    I’m a <strong>Full-Stack NextJs Developer</strong> with expertise in <strong>React.js, Next.js, MongoDB, HTML, CSS, Tailwind CSS, Framer Motion, and SVG</strong>. 
+    I build <strong>scalable, production-ready web applications</strong> with <strong>MongoDB-backed Next.js backends</strong>. 
+    I actively contribute to <strong>open-source</strong> projects and practice <strong>LeetCode</strong> to strengthen problem-solving and data structure skills.
+  </p>
 
-## 💻 Tech Stack
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white)  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)  ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=flat&logo=react-router&logoColor=white)  ![Next.js](https://img.shields.io/badge/Next-black?style=flat&logo=next.js&logoColor=white)  ![Tailwind CSS](https://img.shields.io/badge/Tailwind-%2338B2AC.svg?style=flat&logo=tailwind-css&logoColor=white)  ![SVG](https://img.shields.io/badge/SVG-%2300BFFF.svg?style=flat&logo=svg&logoColor=white)  ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-%23000000.svg?style=flat&logo=framer&logoColor=white)  ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=flat&logo=node.js&logoColor=white)  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat&logo=mongodb&logoColor=white)  ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=flat&logo=vercel&logoColor=white)  ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)  ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat&logo=figma&logoColor=white)  ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white)  
+  <!-- Key Points -->
+  <ul style="list-style-type:none; padding-left:0; font-size:16px; color:#8b949e; margin-bottom:20px;">
+    <li>🌱 Currently learning <strong>Express.js</strong></li>
+    <li>🎨 Obsessed with <strong>UI details, transitions & micro-interactions</strong></li>
+    <li>📫 Reach me at <strong>rimsha.devs@gmail.com</strong></li>
+    <li>📄 Resume: <a href="https://drive.google.com/file/d/1eBpDK8KwSEzHfDNR_AjkbPPPKlX6J7pJ/view" style="color:#58a6ff;">View here</a></li>
+  </ul>
 
-## 🏆 GitHub Achievements
-<p align="left">
-  <em>Active contributor and lifelong learner in the JS ecosystem.</em><br>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rimsha-shoukat&theme=github_dark" alt="GitHub Achievements"/>
-</p>
+  <!-- Mission Statement / Blockquote -->
+  <blockquote style="border-left:4px solid; border-image: linear-gradient(to bottom, #58a6ff, #b794f4) 1; padding-left:12px; margin-left:0; color:#8b949e; font-style:italic;">
+    Turning designs into clean, functional web apps while contributing to the developer community
+  </blockquote>
+</div>
+
+---
+
+## Connect with me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e75b6?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rimsha-shoukat)  [![LeetCode](https://img.shields.io/badge/LeetCode-F79F1F?style=flat&logo=leetcode&logoColor=white)](https://www.leetcode.com/rimsha-shoukat)  [![Portfolio](https://img.shields.io/badge/Portfolio-0e75b6?style=flat&logo=vercel&logoColor=white)](https://rimsha-shoukat.vercel.app)  [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rimsha.devs@gmail.com)  [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1eBpDK8KwSEzHfDNR_AjkbPPPKlX6J7pJ/view)
+
+## Languages & Tools
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40"/> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="40"/> <img src="https://www.vectorlogo.zone/logos/framer/framer-icon.svg" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40"/> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" width="40"/>
+
+---
+
+## GitHub Stats
+<img src="https://github-readme-stats.vercel.app/api?username=rimsha-shoukat&show_icons=true&theme=dark" alt="Stats" /> <img src="https://streak-stats.demolab.com/?user=rimsha-shoukat" alt="Streak Stats" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=rimsha-shoukat&layout=compact&show_icons=true&theme=dark" alt="Top Languages" />
+
+
