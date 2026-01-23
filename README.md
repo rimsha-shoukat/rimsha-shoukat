@@ -25,7 +25,7 @@
 
 ## 🔗Connect with me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e75b6?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rimsha-shoukat)  [![LeetCode](https://img.shields.io/badge/LeetCode-F79F1F?style=flat&logo=leetcode&logoColor=white)](https://www.leetcode.com/rimsha-shoukat)  [![Portfolio](https://img.shields.io/badge/Portfolio-0e75b6?style=flat&logo=vercel&logoColor=white)](https://rimsha-shoukat.vercel.app)  [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rimsha.devs@gmail.com)  [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1eBpDK8KwSEzHfDNR_AjkbPPPKlX6J7pJ/view)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0e75b6?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rimsha-shoukat)  [![LeetCode](https://img.shields.io/badge/LeetCode-F79F1F?style=flat&logo=leetcode&logoColor=white)](https://leetcode.com/u/rimsha-devs/)  [![Portfolio](https://img.shields.io/badge/Portfolio-0e75b6?style=flat&logo=vercel&logoColor=white)](https://rimsha-shoukat.vercel.app)  [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rimsha.devs@gmail.com)  [![Resume](https://img.shields.io/badge/Resume-4CAF50?style=flat&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1eBpDK8KwSEzHfDNR_AjkbPPPKlX6J7pJ/view)
 
 
 ## 🛠️Languages & Tools
