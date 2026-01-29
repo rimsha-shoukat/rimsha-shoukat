@@ -5,7 +5,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1200&color=b794f4&center=false&vCenter=false&width=600&lines=Full-Stack+NextJs+Developer" />
   <!-- Intro Paragraph -->
  
-  I’m a **Full-Stack NextJs Developer** with expertise in **React.js, Next.js, MongoDB, HTML, CSS, Tailwind CSS, Framer Motion, and SVG**. I build **scalable, production-ready web          applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure      skills.
+  I’m a **Full-Stack NextJs Developer** with expertise in **React.js, Next.js, MongoDB, Tailwind CSS, Framer Motion, and SVGs**. I build **scalable, production-ready web applications** with **MongoDB Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.
 
   <!-- Key Points -->
   - Currently learning **Express.js**  
