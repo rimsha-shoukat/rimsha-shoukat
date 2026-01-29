@@ -8,10 +8,10 @@
   I’m a **Full-Stack NextJs Developer** with expertise in **React.js, Next.js, MongoDB, HTML, CSS, Tailwind CSS, Framer Motion, and SVG**. I build **scalable, production-ready web          applications** with **MongoDB-backed Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure      skills.
 
   <!-- Key Points -->
-  - 🌱 Currently learning **Express.js**  
-  - 🎨 Obsessed with **UI details, transitions & micro-interactions**  
-  - 📫 🔗Connect with me **rimsha.devs@gmail.com**  || [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
-  - 📄 Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
+  - Currently learning **Express.js**  
+  - Obsessed with **UI details, transitions & micro-interactions**  
+  - Connect with me **rimsha.devs@gmail.com**   | |  [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
+  - Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
 
   > Turning designs into clean, functional web apps while contributing to the developer community
 
