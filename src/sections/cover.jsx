@@ -9,7 +9,7 @@ export function Cover() {
                     {/* intro */}
                     <div className="flex flex-row items-center w-full justify-center gap-16 max-[600px]:gap-0">
                         <span className="flex flex-col items-start justify-center gap-6 w-[45vw] max-[600px]:w-[90vw]">
-                            <h1 className="text-[2.5rem] max-[600px]:text-[2rem] leading-[1.1] font-bold line-clamp-2">Full Stack Next.js <br /> Developer </h1>
+                            <h1 className="text-[2.5rem] max-[600px]:text-[2rem] leading-[1.1] font-bold line-clamp-2">Full Stack <br /> Developer </h1>
                             <p className="dark:text-[#f1f1f1] text-[#0a0a0a] line-clamp-3 max-[600px]:text-xs">Building scalable, high-performance web applications with modern technologies and a strong focus on clean design and user experience.</p>
                             {/* connection as */}
                             <span className="flex flex-row items-center justify-start gap-3 mt-4">
