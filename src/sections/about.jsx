@@ -8,7 +8,7 @@ export function About() {
                     <span className="w-1/2 max-[1300px]:w-2/2 flex flex-col items-start justify-center gap-5">
                         <h1 className="text-2xl max-[1300px]:text-xl font-bold line-clamp-2">Developing Clean, Scalable Web Applications</h1>
                         <p className="text-justify dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80 max-[1300px]:text-sm">
-                            I am an IT student and Front-End Developer with hands-on experience in HTML, CSS, JavaScript, React.js, Framer Motion, and Tailwind CSS, currently progressing towards full-stack development using Next.js.
+                            I am an IT student and Full Stack Developer with hands-on experience in HTML, CSS, JavaScript, React.js, NextJs, Express, Framer Motion, and Tailwind CSS.
                             <br /><br />
                             Since 2024, I have applied my skills to real-world projects. I focus on building responsive, accessible, and scalable web applications with clean, maintainable code and intuitive user experiences.
                         </p>
