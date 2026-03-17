@@ -47,7 +47,7 @@ export function Projects() {
                             </div>
                             {/* description */}
                             <div className="w-84 px-4 flex flex-col gap-2">
-                                <a href="https://rimsha-shoukat.github.io/shoppey-E-commerce-app/" target="_blank" rel="noopener noreferrer">
+                                <a href="https://shoppey-e-commerce-app.vercel.app/" target="_blank" rel="noopener noreferrer">
                                     <h1 className="font-bold text-lg line-clamp-1 cursor-default hover:underline" title="view project live">Shoppey — E-commerce App
                                         <svg className="inline pb-1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
                                     </h1>
@@ -57,9 +57,9 @@ export function Projects() {
                                 </p>
                                 <div className="flex flex-row gap-2 text-sm">
                                     <p className="text-blue-700">#reactjs</p>
-                                    <p className="text-green-500">#tailwindcss</p>
-                                    <p className="text-red-500">#api</p>
-                                    <p className="text-amber-900">#html5</p>
+                                    <p className="text-green-500">#nodejs</p>
+                                    <p className="text-red-500">#jwt</p>
+                                    <p className="text-amber-900">#expressjs</p>
                                 </div>
                             </div>
                         </div>
