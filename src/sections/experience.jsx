@@ -42,7 +42,7 @@ export function Experience() {
                                     <span className="text-white font-bold">2</span>
                                 </div>
                                 <div className="opensource w-1/2 max-[600px]:w-full max-[600px]:pr-8 max-[600px]:pl-0 pl-8 text-left">
-                                    <a href="https://github.com/repos?q=owner%3A%40me+fork%3Atrue" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/repos?q=contributed-by%3A%40me+sort%3Astars" target="_blank" rel="noopener noreferrer">
                                         <h2 className="font-bold text-xl cursor-default hover:underline" title="view in github" >Open-Source Contributions</h2>
                                     </a>
                                     <p className="text-sm dark:text-[#f1f1f1]/50 text-[#0e0e0e]/50">GitHub Projects</p>
