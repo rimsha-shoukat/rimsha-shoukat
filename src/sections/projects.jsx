@@ -107,7 +107,7 @@ export function Projects() {
                                     </h1>
                                 </a>
                                 <p className="text-sm text-justify dark:text-[#f1f1f1]/50 text-[#0e0e0e]/80">
-                                Developed a chess web app with three game modes — play with a friend, challenge a bot, or match with strangers online using real-time communication. Built with Node.js, Express, EJS, Socket.io and chess.js with focus on clean project structure.
+                                Developed a chess web app with three game modes — play with a friend, challenge a bot, or match with strangers online using real-time environment. Built with Node.js, Express.js, EJS, Socket.io and chess.js with focus on clean UI and project structure.
                                 </p>
                                 <div className="flex flex-row gap-2 text-sm">
                                     <p className="text-blue-700">#nodejs</p>
