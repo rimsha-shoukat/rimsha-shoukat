@@ -1,18 +1,11 @@
-<!-- About Me Section -->
-<div align="left">
+<img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1200&color=b794f4&center=false&vCenter=false&width=600&lines=Full-Stack+Developer" />
 
-  <!-- Animated Headings -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1200&color=b794f4&center=false&vCenter=false&width=600&lines=Full-Stack+Developer" />
-  <!-- Intro Paragraph -->
- 
-  Hi! I’m a **Rimsha**. A Full-Stack Developer with expertise in **React.js, Next.js, Express, MongoDB, Typescript, and Node.js**. I build **scalable, production-ready web applications** with **MongoDB Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.
-
-  <!-- Key Points -->
-  - Obsessed with **UI details, transitions & micro-interactions**
-  - Learning: **SQL**
-  - Connect with me **rimsha.devs@gmail.com**   ||  [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
-  - Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
-
-  > Turning designs into clean, functional web apps while contributing to the developer community
-
-</div>
+*Hi there, I'm Rimsha! 👋*.
+A passionate **Full-Stack Developer** in my final year of Information Technology. I specialize in building scalable, production-ready web applications using the **MERN stack** and **TypeScript**. I bridge the gap between design and code by focusing on high-quality UI and micro-interactions.
+> Turning designs into clean, functional web apps while contributing to the developer community
+- 🎓 **Education:** Final Year IT Student (Focusing on Software Architecture & Performance)
+- 🔭 **Current Focus:** Deepening my knowledge in **SQL/Relational Databases** and **System Design**.
+- 🛠️ **Strong Suit:** Transforming complex designs into clean, functional, and responsive code.
+- ⚡ **Fun Fact:** When I'm not coding, I'm likely solving **LeetCode** problems to sharpen my logic.
+- 🤝 **Connect:** *rimsha.devs@gmail.com*   ||  [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
+- 💫 Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
