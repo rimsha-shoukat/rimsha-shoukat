@@ -9,7 +9,7 @@
 
   <!-- Key Points -->
   - Obsessed with **UI details, transitions & micro-interactions**
-  - Learning: **TypeScript**
+  - Learning: **Relational DBMS**
   - Connect with me **rimsha.devs@gmail.com**   ||  [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
   - Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
 
