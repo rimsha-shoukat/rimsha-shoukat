@@ -5,11 +5,11 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=24&pause=1200&color=b794f4&center=false&vCenter=false&width=600&lines=Full-Stack+Developer" />
   <!-- Intro Paragraph -->
  
-  Hi! I’m a **Rimsha**. A Full-Stack Developer with expertise in **React.js, Next.js, Express, MongoDB, Tailwind CSS, Framer Motion, and SVGs**. I build **scalable, production-ready web applications** with **MongoDB Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.
+  Hi! I’m a **Rimsha**. A Full-Stack Developer with expertise in **React.js, Next.js, Express, MongoDB, Typescript, and Node.js**. I build **scalable, production-ready web applications** with **MongoDB Next.js backends**. I actively contribute to **open-source** projects and practice **LeetCode** to strengthen problem-solving and data structure skills.
 
   <!-- Key Points -->
   - Obsessed with **UI details, transitions & micro-interactions**
-  - Learning: **Relational DBMS**
+  - Learning: **SQL**
   - Connect with me **rimsha.devs@gmail.com**   ||  [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
   - Portfolio: [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
 
