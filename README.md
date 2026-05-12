@@ -17,7 +17,7 @@ I am a Final Year IT student and a Full-Stack Developer driven by a passion for 
 
 - **Languages & Core:** JavaScript (ES6+), TypeScript, HTML5, CSS3/SCSS
 - **Frontend:** React.js, Next.js, Tailwind CSS, Zustand, Axios, SVG
-- **Backend & Auth:** Node.js, Express, JWT, EJS, Cloudinary
+- **Backend & Auth:** Node.js, Express, JWT, EJS, Multer, NodeMailer
 - **Databases:** MongoDB (NoSQL) & PostgreSQL (Learning)
 
 ---
