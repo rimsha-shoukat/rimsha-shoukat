@@ -2,6 +2,19 @@
   "name": "rimsha-shoukat",
   "version": "0.1.0",
   "private": true,
+  "description": "I am a Final Year IT student and a Full-Stack Developer driven by a passion for building functional, user-centric web applications. I focus on writing clean code and creating seamless bridges between intuitive frontend and scalable backend logic.",
+  "homepage": "https://github.com/rimsha-shoukat/rimsha-shoukat#readme",
+  "bugs": {
+    "url": "https://github.com/rimsha-shoukat/rimsha-shoukat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimsha-shoukat/rimsha-shoukat.git"
+  },
+  "license": "ISC",
+  "author": "rimsha-shoukat",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

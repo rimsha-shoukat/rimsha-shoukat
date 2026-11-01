@@ -1,6 +1,6 @@
 ### Hi there, I'm Rimsha! 👋
 
-I am a Final Year IT student and a Full-Stack Developer driven by a passion for building functional, user-centric web applications. I focus on writing clean code and creating seamless bridges between intuitive frontends and scalable backend logic.
+I am a Final Year IT student and a Full-Stack Developer driven by a passion for building functional, user-centric web applications. I focus on writing clean code and creating seamless bridges between intuitive frontend and scalable backend logic.
 
 > **Dedicated to mastering software foundations and building efficient, data-driven solutions.**
 
