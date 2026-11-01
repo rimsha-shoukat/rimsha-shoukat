@@ -8,7 +8,7 @@ I am a Final Year IT student and a Full-Stack Developer driven by a passion for 
 - 🔭 **Current Focus:** Deep-diving into Advanced JavaScript and mastering Relational Databases with PostgreSQL.
 - 🛠️ **Strong Suit:** Developing responsive interfaces with React and building secure RESTful APIs with Node.js.
 - ⚡ **Fun Fact:** I enjoy breaking down complex logic through LeetCode challenges to keep my problem-solving skills sharp.
-- 🤝 **Connect:** *rimsha.devs@gmail.com* || [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
+- 🤝 **Connect:** [LinkedIn](https://linkedin.com/in/rimsha-shoukat)
 - 💫 **Portfolio:** [rimsha-shoukat](https://rimsha-shoukat.vercel.app)
 
 ---
